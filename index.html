@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosa do Amor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🌹 Rosa do Amor 🌹</h2>
+
+    <div class="date-picker">
+      <label for="dataInicio">Data do início do namoro:</label>
+      <input type="date" id="dataInicio" onchange="atualizarTempo()" />
+    </div>
+
+    <div class="preview">
+      <img id="rosa" src="https://cdn-icons-png.flaticon.com/512/616/616408.png" />
+    </div>
+
+    <div id="fraseEspecial" class="frase-especial"></div>
+
+    <div class="tempo">
+      <div><strong><span id="anos">0</span></strong> anos</div>
+      <div><strong><span id="meses">0</span></strong> meses</div>
+      <div><strong><span id="dias">0</span></strong> dias</div>
+      <div><strong><span id="horas">0</span></strong> horas</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
